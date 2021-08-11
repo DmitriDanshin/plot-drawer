@@ -1,0 +1,43 @@
+@import '_helpers.scss';
+@import '_variables.scss';
+@import '_mixins.scss';
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.field {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(37, 37, 37, 0.363);
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid black;
+  position: relative;
+}
+.point {
+  position: absolute;
+  background-color: black;
+  left: 7px;
+  width: 1px;
+  height: 1px;
+}
+
+.menu {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 3px;
+  border: 1px solid black;
+  background-color: #fff;
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  button {
+    margin-top: 2px;
+    width: 100%;
+  }
+}
